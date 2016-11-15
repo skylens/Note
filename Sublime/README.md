@@ -1,6 +1,7 @@
 Sublime text 3
 
 [Sublime](http://www.cnblogs.com/Rising/p/3741116.html)
+[sublime text 3 ftp](https://my.oschina.net/surjur/blog/392590)
 
 Install Plug-in
 
