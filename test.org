@@ -1,0 +1,41 @@
+#+TITLE: org-mode 入门
+
+
+*粗体*
+
+/斜体/
+
++删除线+
+
+_下划线_
+
+下标: H_2 o
+
+上标: E=m^2
+
+等宽字体: =git=
+
+
+无序列表
+
+- 无序列表
+- 无序列表
+
++ 无序列表
++ 无序列表
+
+代码
+
+#+begin_src bash -n -t
+#!/bin/bash
+echo "Hello, World!"
+#+end_src
+
+-----
+
+#+begin_src c -n -t -h 7 -w 40
+#include<stdio.h>
+int main(){
+    printf("Hello, World!"\n);
+}
+#+end_src
