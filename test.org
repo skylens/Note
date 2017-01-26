@@ -4,6 +4,47 @@
 
 ** 二级标题
 
+1) [-] 任务
+
+  1) [ ] 子任务1
+
+  2) [x] 子任务2
+
+  3) [ ] 子任务3
+
+2) [ ] 任务2
+
+[[http://github.com][github]]
+
+# +TITLE: This is the title of the document
+# +OPTIONS: toc:2 (only to two levels in TOC)
+# +OPTIONS: toc:nil (no TOC at all)
+
+# +BEGIN_CENTER
+    Everything should be made as simple as possible,but not any simpler
+# +END_CENTER
+
+# +BEGIN_SRC emacs-lisp
+(+ 1 2 3 4)
+# +END_SRC
+
+# +BEGIN_SRC python :results output
+a = 1+1
+print a
+# +END_SRC
+
+# +RESULTS:
+: 2
+
+# +begin_src C++ :includes <stdio.h> 
+  int a=1;
+  int b=1;
+  printf("%d\n", a+b);
+# +end_src
+
+# +RESULTS:
+: 2
+
 https://github.com/skylen
 
 *粗体*
